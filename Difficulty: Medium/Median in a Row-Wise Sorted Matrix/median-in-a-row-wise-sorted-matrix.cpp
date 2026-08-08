@@ -10,6 +10,6 @@ class Solution {
             }
         }
         sort(temp.begin(),temp.end());
-        return temp[temp.size()/2];
+        return temp[temp.size() / 2];
     }
 };

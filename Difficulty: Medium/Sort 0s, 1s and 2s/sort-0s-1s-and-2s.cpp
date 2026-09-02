@@ -7,10 +7,9 @@ class Solution {
         while(m<=h){
             if(arr[m]==0){
                 swap(arr[m],arr[l]);
-                l++;
-                m++;
+                m++;l++;
             }
-            else if(arr[m]==1){
+            else if(arr[m] == 1){
                 m++;
             }
             else{
